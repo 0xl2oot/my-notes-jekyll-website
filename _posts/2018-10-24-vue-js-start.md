@@ -1,6 +1,9 @@
 ---
 layout: post
 title:  "Vue.js 初学者可能会遇到的问题"
+description: "Vue.js 初学者可能会遇到的问题"
+category: "Vue.js"
+tags: ["vue.js", "vue", "beginner", "npm", "yarn"]
 date:   2018-10-25 19:13:58 +0800
 ---
 

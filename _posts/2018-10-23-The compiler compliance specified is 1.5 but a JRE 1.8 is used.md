@@ -1,6 +1,9 @@
 ---
 layout: post
 title:  "The compiler compliance specified is 1.5 but a JRE 1.8 is used"
+description: ""
+category: ""
+tags: ["eclipse", "compiler", "jre", "jdk"]
 date:   2018-10-23 23:16:58 +0800
 ---
 
