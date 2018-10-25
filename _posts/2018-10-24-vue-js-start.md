@@ -3,11 +3,11 @@ layout: post
 title:  "Vue.js 初学者可能会遇到的问题"
 description: "Vue.js 初学者可能会遇到的问题"
 category: "Vue.js"
-tags: ["vue.js", "vue", "beginner", "npm", "yarn"]
+tags: ["vue.js", "vue", "beginner", "npm", "yarn", "vue-cli"]
 date:   2018-10-25 19:13:58 +0800
 ---
 
-### npm 和 Yarn
+### 1. npm 和 Yarn
 
 Yarn [https://yarnpkg.com/zh-Hans/](https://yarnpkg.com/zh-Hans/)
 
@@ -16,7 +16,7 @@ npm [https://www.npmjs.com/](https://www.npmjs.com/)
 
 npm 和 Yarn 都是 JavaScript 的管理工具，但是 Yarn 会比 npm 快的多，Yarn 会缓存它下载的每个包，所以无需重复下载。它还能并行化操作以最大化资源利用率，安装速度之快前所未有。
 
-### npm 和 cnpm 
+### 2. npm 和 cnpm 
 
 npm 的仓库在国外，国内用户访问会慢很多，甚至有时候影响了项目的构建。
 
@@ -32,7 +32,7 @@ $ npm install -g cnpm --registry=https://registry.npm.taobao.org
 安装完之后就可以使用 cnpm 命令了，详细的使用方法还是看官方的说明吧 [https://npm.taobao.org/](https://npm.taobao.org/)
 
 
-### eslint - JavaScript 代码规范
+### 3. eslint - JavaScript 代码规范
 
 刚开始 init Vue.js 的项目时，有关于 JavaScript 语法检查的 eslint 的选项，如果我们开了之后，会发现运行的时候可能有很多错误，但是不知道错在哪里，其实有可能不是错误，只是不符合规范。
 
@@ -43,7 +43,7 @@ $ npm install -g cnpm --registry=https://registry.npm.taobao.org
 
 [https://github.com/standard/standard/blob/master/docs/RULES-zhcn.md](https://github.com/standard/standard/blob/master/docs/RULES-zhcn.md)
 
-### Yarn CLI 介绍
+### 4. Yarn CLI 介绍
 
 [https://yarnpkg.com/zh-Hans/docs/cli/](https://yarnpkg.com/zh-Hans/docs/cli/)
 
@@ -51,11 +51,60 @@ $ npm install -g cnpm --registry=https://registry.npm.taobao.org
 
 https://vuetifyjs.com/
 
-### vue-2-boilerplate - 一个 Vue.js 的脚手架
+### 5. vue-2-boilerplate - 一个 Vue.js 的脚手架
 
 Vue 2 boilerplate for developing medium to large single page applications.
 
 [https://github.com/petervmeijgaard/vue-2-boilerplate](https://github.com/petervmeijgaard/vue-2-boilerplate)
+
+### 6. Vue CLI 3
+
+现在 Vue CLI 的版本号是 3.X.X，有关于他的用法的说明在官网上 [https://cli.vuejs.org/](https://cli.vuejs.org/) 
+
+官网上面是这样描述 Vue CLI 3 的
+
+> Standard Tooling for Vue.js Development.
+
+> Vue.js 开发的标准工具
+
+Vue CLI 3 的安装的方式是
+
+```shell
+npm install -g @vue/cli
+# OR
+yarn global add @vue/cli
+```
+
+创建一个项目：
+
+```shell
+vue create my-project
+# OR 使用 web 管理界面管理 Vue.js 的项目
+vue ui
+```
+
+![](/assets/ui-new-project.png)
+
+CLI 服务 (@vue/cli-service) 是一个开发环境依赖。它是一个 npm 包，局部安装在每个 @vue/cli 创建的项目中。
+
+CLI 服务是构建于 webpack 和 webpack-dev-server 之上的。它包含了：
+
+加载其它 CLI 插件的核心服务；
+一个针对绝大部分应用优化过的内部的 webpack 配置；
+项目内部的 vue-cli-service 命令，提供 serve、build 和 inspect 命令。
+
+
+而之前的 Vue CLI 2 的安装方式却是不同的，因此网上的教程会让你眼花缭乱，不知所措，如果有特定需求需要安装低版本的话，按照下面的方式安装
+
+```shell
+npm install -g vue-cli
+```
+
+创建一个项目
+
+```shell
+vue init webpack my-project
+```
 
 ### 参考文献
 
