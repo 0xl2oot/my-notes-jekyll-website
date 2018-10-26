@@ -4,7 +4,7 @@ title:  "Vue.js 初学者可能会遇到的问题"
 description: "Vue.js 初学者可能会遇到的问题"
 category: "Vue.js"
 tags: ["vue.js", "vue", "beginner", "npm", "yarn", "vue-cli"]
-date:   2018-10-25 19:13:58 +0800
+date:   2018-10-26 18:00:00 +0800
 ---
 
 ### 1. npm 和 Yarn
@@ -105,6 +105,49 @@ npm install -g vue-cli
 ```shell
 vue init webpack my-project
 ```
+
+### 7. vue-router 
+
+
+Vue Router 是 Vue.js 官方的路由管理器。它和 Vue.js 的核心深度集成，让构建单页面应用变得易如反掌。
+
+用法
+
+```js
+import Vue from 'vue'
+import Router from 'vue-router'
+import Home from './views/Home.vue'
+
+Vue.use(Router)
+
+export default new Router({
+  routes: [
+    {
+      path: '/',
+      name: 'home',
+      component: Home
+    },
+    {
+      path: '/about',
+      name: 'about',
+      // route level code-splitting
+      // this generates a separate chunk (about.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
+    }
+  ]
+})
+```
+
+App.vue 中这样写
+
+
+```vue
+<template>
+  <router-view/>
+</template>
+```
+
 
 ### 参考文献
 
