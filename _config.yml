@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Gain great knowledge
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://notes.0xl2oot.cn" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 0xl2oot
 github_username:  0xl2oot
 
@@ -30,6 +30,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
