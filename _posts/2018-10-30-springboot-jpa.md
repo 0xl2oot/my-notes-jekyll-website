@@ -7,6 +7,10 @@ tags: ["Java", "SpringBoot", "spring-data-jpa"]
 date:   2018-10-30 15:30:00 +0800
 ---
 
+- TOC 
+{:toc}
+
+
 ### Spring Data JPA 是什么
 
 JPA （The Java Persistence API）是用于访问，持久化和管理 Java 对象/类与关系型数据库之间的数据交互的 Java 规范。
@@ -117,6 +121,8 @@ public class User {
     private int age;
 }
 ```
+
+> 注：Entity中不映射成列的字段得加@Transient 注解，不加注解也会映射成列
 
 
 声明 UserRepository接口，继承JpaRepository，默认支持简单的 CRUD 操作，非常方便
