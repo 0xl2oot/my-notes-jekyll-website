@@ -1,0 +1,17 @@
+This is tralics 2.15.1, a LaTeX to XML translator, running on WYH
+Copyright INRIA/MIAOU/APICS/MARELLE 2002-2012, Jos\'e Grimm
+Licensed under the CeCILL Free Software Licensing Agreement
+Starting translation of file /var/folders/8z/55g4rpsj3lq6wtpztnskr_sc0000gn/T/polytex20181106-87176-d82mof.tex.
+Dummy default configuration file used.
+Error signaled at line 26 of file /var/folders/8z/55g4rpsj3lq6wtpztnskr_sc0000gn/T/polytex20181106-87176-d82mof.tex:
+Unexpected &.
+Bib stats: seen 0 entries.
+Math stats: formulas 0, kernels 0, trivial 0, \mbox 0, large 0, small 0.
+Buffer realloc 1, string 1372, size 13483, merge 0
+Macros created 198, deleted 10; hash size 2388; foonotes 0.
+Save stack +18 -18.
+Attribute list search 1516(1505) found 1074 in 1123 elements (1120 at boot).
+Number of ref 0, of used labels 0, of defined labels 0, of ext. ref. 0.
+Output written on /var/folders/8z/55g4rpsj3lq6wtpztnskr_sc0000gn/T/polytex20181106-87176-d82mof.xml (347 bytes).
+There was one error.
+(For more information, see transcript file /var/folders/8z/55g4rpsj3lq6wtpztnskr_sc0000gn/T/polytex20181106-87176-d82mof.log)
