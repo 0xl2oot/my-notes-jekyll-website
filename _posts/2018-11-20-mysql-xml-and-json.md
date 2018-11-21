@@ -8,6 +8,7 @@ date:   2018-11-20 09:00:00 +0800
 ---
 
 ```sql
+-- 测试 MySQL 5.6 MySQL 8.0 通过
 create table xml(
 	id int not null auto_increment,
 	xml varchar(255) not null,
@@ -37,3 +38,44 @@ select id, extractvalue(xml, 'sucess') as sucess, extractvalue(xml, 'failure') a
 2 rows in set (0.00 sec)
 
 ```
+
+
+
+```sql
+-- 测试 MySQL 8.0 通过
+create table json(
+	id int not null auto_increment,
+	json varchar(255) not null,
+	primary key(id)
+);
+
+
+insert into json(json) values('{"name": "Alice", "sex": "female", "age": 23}');
+insert into json(json) values('{"name": "Bob", "sex": "male", "age": 20}');
+
+select json_extract(json, '$.name') as name, json_extract(json, '$.sex') as sex, json_extract(json, '$.age') as age from json;
++---------+----------+------+
+| name    | sex      | age  |
++---------+----------+------+
+| "Alice" | "female" | 23   |
+| "Bob"   | "male"   | 20   |
++---------+----------+------+
+2 rows in set (0.00 sec)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
