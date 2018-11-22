@@ -7,7 +7,13 @@ tags: ["MySQL", "docker"]
 date:   2018-11-21 09:00:00 +0800
 ---
 
-首先从 docker 官网下载安装 docker。
+首先从 docker 官网下载安装 docker。Windows 和 macOS 安装都是图形界面的比较方便
+
+Linux 的话，有的可能也比较简单，比如 Ubuntu
+
+```
+sudo snap install docker
+```
 
 检查 docker 安装是否成功，出现类似下面的信息就是安装好了
 
@@ -44,7 +50,7 @@ docker pull mysql:5.7
 docker pull mysql:8.0
 ```
 
-mysql 是官方的镜像，冒号后面跟的是版本号
+mysql 是官方的镜像，冒号后面跟的是版本号。为了方便，我们把三个 mysql 的容器分别叫做 mysql56, mysql57, mysql80
 
 ```shell
 docker run -p 3316:3306 --name mysql56 -e MYSQL_ROOT_PASSWORD=123456 -d mysql:5.6
@@ -124,4 +130,18 @@ mysql> select version();
 +-----------+
 1 row in set (0.01 sec)
 ```
+
+最后我们看一下 docker 其他常用的命令
+
+| 命令 | 功能 |
+| -- | -- |
+| docker ps  | 查看正在运行的容器 |
+| docker ps -a | 查看所有的容器 |
+| docker stop mysql56 | 停止 mysql56 这个容器 |
+| docker start mysql56 | 启动 mysql56 这个容器 |
+| docker images | 查看 docker 所有镜像 |
+| docker image list | 同上 |
+| docker rm mysql56 | 删除 mysql56 这个容器 |
+| docker rmi mysql:5.6 | 删除 mysql 5.6 版本的 image | 
+
 
