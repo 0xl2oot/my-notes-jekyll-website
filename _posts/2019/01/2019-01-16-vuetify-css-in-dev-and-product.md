@@ -2,7 +2,7 @@
 layout: post
 title:  "vuetifyjs 样式在生产环境失效"
 description: "vuetify 按钮有一些属性，比如 info, warning, error 和 success 等，这些在 dev 模式下是正常显示的，到了生产环境却不显示了，这是什么原因呢？"
-category: ""
+category: "vuetify"
 tags: ["vuetify"]
 date:   2019-01-16 12:00:00 +0800
 ---
