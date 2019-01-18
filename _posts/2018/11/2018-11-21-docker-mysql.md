@@ -131,6 +131,15 @@ mysql> select version();
 1 row in set (0.01 sec)
 ```
 
+安装 phpmyadmin
+
+```
+docker run --name myadmin56 -d --link mysql56:db -p 3600:80 phpmyadmin/phpmyadmin
+```
+
+访问 localhost:3600 即可
+
+
 最后我们看一下 docker 其他常用的命令
 
 | 命令 | 功能 |
