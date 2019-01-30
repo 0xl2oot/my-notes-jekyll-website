@@ -226,9 +226,10 @@ dependencies {
 
 看看 spring-boot-autoconfigure 里有什么
 
-![](/assets/Screen Shot 2019-01-23 at 1.06.02 PM.png)
 
-![](/assets/Screen Shot 2019-01-23 at 1.27.08 PM.png)
+<div align="center"><img src="/assets/Screen Shot 2019-01-23 at 1.06.02 PM.png" width="1000px" /> </div><br>
+
+<div align="center"><img src="/assets/Screen Shot 2019-01-23 at 1.27.08 PM.png" width="1000px" /> </div><br>
 
 这里写到
 
@@ -318,10 +319,12 @@ public class FreeMarkerAutoConfiguration {
 
 
 freemarker中
-![](/assets/Screen Shot 2019-01-23 at 1.35.44 PM.png)
+
+<div align="center"><img src="/assets/Screen Shot 2019-01-23 at 1.35.44 PM.png" width="1000px" /> </div><br>
 
 spring-context-support中
-![](/assets/Screen Shot 2019-01-23 at 1.37.37 PM.png)
+<div align="center"><img src="/assets/Screen Shot 2019-01-23 at 1.37.37 PM.png" width="1000px" /> </div><br>
+
 
 
 所以说一开始我们加入了一个 spring-boot-starter-freemarker 依赖，这个依赖中存在 freemarker 和 spring-context-support 的 lib，满足了FreeMarkerAutoConfiguration 中的 ConditionalOnClass 里写的 freemarker.template.Configuration.class 这个类和 FreeMarkerConfigurationFactory.class 存在于 classpath 中。于是就可以正常的使用了。

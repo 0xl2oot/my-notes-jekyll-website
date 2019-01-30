@@ -12,7 +12,8 @@ vuetify 按钮有一些属性，[比如 info, warning, error 和 success 等](ht
 - npm run dev 正常
 - npm run generate 放到 Nginx 中不正常
 
-![](/assets/Screen Shot 2019-01-19 at 12.19.20 AM.png)
+<div align="center"><img src="/assets/Screen Shot 2019-01-19 at 12.19.20 AM.png" width="800px" /> </div><br>
+
 
 我查了好久，终于在 Stack Overflow 上找到了答案
 

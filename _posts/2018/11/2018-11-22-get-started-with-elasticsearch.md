@@ -170,7 +170,8 @@ $ curl http://localhost:9202
 
 打开 http://localhost:9100 查看
 
-![](/assets/Screen Shot 2018-11-22 at 12.10.42 PM.png)
+<div align="center"><img src="/assets/Screen Shot 2018-11-22 at 12.10.42 PM.png" width="800px" /> </div><br>
+
 
 ### 在远程的机器上进行安装
 

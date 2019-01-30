@@ -11,6 +11,10 @@ date:   2019-01-29 09:00:00 +0800
 
 Java8 里函数式编程的特性被引入已经成为了这场游戏的转折点。是时候学习一下了。流是函数式编程引入的一大特性
 
+
+<div align="center"><img src="/assets/java8.png" width="600px" /> </div><br>
+
+
 下面我们来一起看一下流的引入能够给我们带来怎样的效果。
 
 Let the coding begin!

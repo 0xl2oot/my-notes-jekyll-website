@@ -32,15 +32,17 @@ spring.datasource.password=${MYSQL_PASSWORD}
 
 在运行的按钮处，选择 Edit Configurations
 
-![](/assets/Screen Shot 2018-11-08 at 3.36.13 PM.png)
+<div align="center"><img src="/assets/Screen Shot 2018-11-08 at 3.36.13 PM.png" width="650px" /> </div><br>
+
 
 接下来我们展开 Environment 选项，发现有个 Environment variables.我们点开进行修改
 
-![](/assets/Screen Shot 2018-11-08 at 3.38.21 PM.png)
+<div align="center"><img src="/assets/Screen Shot 2018-11-08 at 3.38.21 PM.png" width="800px" /> </div><br>
 
 改成下面的样子就可以了
 
-![](/assets/Screen Shot 2018-11-08 at 3.39.52 PM.png)
+<div align="center"><img src="/assets/Screen Shot 2018-11-08 at 3.39.52 PM.png" width="500px" /> </div><br>
+
 
 运行 -> 成功 ！！！ 
 
