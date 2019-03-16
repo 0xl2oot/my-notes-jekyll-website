@@ -7,6 +7,9 @@ tags: ["linux"]
 date:   2019-01-28 11:00:00 +0800
 ---
 
+- TOC 
+{:toc}
+
 #### 1.How to check the kernel version of a Linux system?
 
 ```

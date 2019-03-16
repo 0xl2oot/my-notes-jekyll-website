@@ -7,6 +7,8 @@ tags: ["国内", "镜像", "开源软件"]
 date:   2018-10-25 22:00:00 +0800
 ---
 
+最新内容请看 [加速一切](https://notes.0xl2oot.cn/mirror/2019/03/13/accelerate-everything.html)
+
 - [清华大学开源软件镜像站 - Tsinghua Open Source Mirror](https://mirrors.tuna.tsinghua.edu.cn/)
 - [中国科学技术大学开源软件镜像](http://mirrors.ustc.edu.cn/)
 - [淘宝 NPM 镜像](https://npm.taobao.org/)

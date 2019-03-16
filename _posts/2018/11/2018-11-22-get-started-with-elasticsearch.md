@@ -7,6 +7,9 @@ tags: ["ElasticSearch"]
 date:   2018-11-22 09:00:00 +0800
 ---
 
+- TOC 
+{:toc}
+
 ### 单实例安装
 
 安装 ElasticSearch，首先到官网下载 [https://www.elastic.co/downloads/elasticsearch](https://www.elastic.co/downloads/elasticsearch)
