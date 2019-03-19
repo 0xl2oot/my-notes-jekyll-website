@@ -55,7 +55,7 @@ sudo chmod +x /usr/share/applications/Studio.desktop
 
 SDK 下载很慢一直是一个很头疼的问题。
 
-可以在设置中 `Appearance & Behavior -> System Settings -> HTTP Proxy` 中进行设置，勾选 `Auto-detect proxy settings`，勾选 ``Automatic proxy configuration URL`，填写 `mirrors.neusoft.edu.cn`
+可以在设置中 `Appearance & Behavior -> System Settings -> HTTP Proxy` 中进行设置，勾选 `Auto-detect proxy settings`，勾选 `Automatic proxy configuration URL`，填写 `mirrors.neusoft.edu.cn`
 
 保存设置就可以了。
 
