@@ -37,6 +37,8 @@ unzip file.zip
 unzip -O GBK file.zip
 # 解压 tar tar.gz
 tar -zxvf file.tar
+# 安装 .deb 安装包
+dpkg -i install.deb
 ```
 
 ### 传文件到远程服务器
