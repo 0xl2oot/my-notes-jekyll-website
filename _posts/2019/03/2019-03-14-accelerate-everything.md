@@ -3,7 +3,7 @@ layout: post
 title:  "加速一切"
 description: "加速一切"
 category: "mirror"
-tags: ["mirror"]
+tags: ["mirror", "镜像", "加速", "accelerate"]
 date: 2019-03-14 00:00:00 +0800
 ---
 

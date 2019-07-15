@@ -3,7 +3,7 @@ layout: post
 title:  "在 Ubuntu 上使用 Android Studio 开发"
 description: "在 Ubuntu 上使用 Android Studio 开发"
 category: "Android"
-tags: ["Android"]
+tags: ["Android", "镜像", "maven", "AS", "as"]
 date: 2019-03-18 00:00:00 +0800
 ---
 

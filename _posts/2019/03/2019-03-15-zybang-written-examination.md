@@ -3,7 +3,7 @@ layout: post
 title:  "作业帮研发笔试"
 description: "作业帮研发笔试"
 category: "interview"
-tags: ["interview"]
+tags: ["interview", "笔试", "研发"]
 date: 2019-03-15 00:00:00 +0800
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title:  "在 Ubuntu 上播放 mkv 格式的视频"
 description: "在 Ubuntu 上播放 mkv 格式的视频"
 category: "ubuntu"
-tags: ["ubuntu"]
+tags: ["ubuntu", "mkv"]
 date: 2019-03-19 00:00:00 +0800
 ---
 

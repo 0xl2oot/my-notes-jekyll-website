@@ -3,7 +3,7 @@ layout: post
 title:  "web 服务器 lnmp 的使用"
 description: "web 服务器 lnmp 的使用"
 category: "Linux"
-tags: ["Linux"]
+tags: ["Linux", "linux", "web", "lnmp"]
 date: 2019-03-19 00:00:00 +0800
 ---
 

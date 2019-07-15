@@ -3,7 +3,7 @@ layout: post
 title:  "使用远程服务器运行 Python"
 description: "使用远程服务器运行 Python"
 category: "Linux"
-tags: ["Linux"]
+tags: ["Linux", "python", "Python", "linux", "conda", "anaconda"]
 date: 2019-03-16 00:00:00 +0800
 ---
 

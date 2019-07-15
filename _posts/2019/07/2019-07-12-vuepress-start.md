@@ -3,7 +3,7 @@ layout: post
 title:  "Vuepress踩坑小结"
 description: "Vuepress踩坑小结"
 category: "vuepress"
-tags: ["vuepress"]
+tags: ["vuepress", "Vuepress", "nginx", "Nginx"]
 date: 2019-07-11 00:00:00 +0800
 ---
 

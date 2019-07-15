@@ -3,7 +3,7 @@ layout: post
 title:  "解决Springboot在macOS上启动慢的问题"
 description: "Springboot在其他人电脑上启动只需要3s，但是在我的电脑上却需要30s，这可能是Springboot在macOS上JDK1.8的一个bug，只要在host添加了你的主机名就正常了"
 category: "springboot"
-tags: ["springboot"]
+tags: ["springboot", "启动慢", "macos", "macOS"]
 date: 2019-07-11 00:00:00 +0800
 ---
 
