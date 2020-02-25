@@ -54,7 +54,7 @@ GEM
       jekyll-seo-tag (~> 2.1)
     msgpack (1.2.10)
     multi_json (1.14.1)
-    nokogiri (1.10.5)
+    nokogiri (1.10.8)
       mini_portile2 (~> 2.4.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
